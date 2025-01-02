@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Felicia Brown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3dada;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #89ccde;
+            color: rgb(181, 82, 82);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #E8F5E9;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .about {
+            padding: 20px;
+            background-color: #E8F5E9;
+        }
+
+        .about h2 {
+            margin-top: 0;
+        }
+
+        .links {
+            padding: 20px;
+            background-color: #FAFAFA;
+        }
+
+        .links a {
+            display: block;
+            margin: 5px 0;
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .section h3 {
+            margin-top: 0;
+        }
+
+        .what-doing {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1 1 calc(50% - 20px);
+            background: linear-gradient(135deg, #52c1b2, #81C784);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:nth-child(2) {
+            background: linear-gradient(135deg, #4b779c, #64B5F6);
+        }
+
+        .card:nth-child(3) {
+            background: linear-gradient(135deg,#52c1b2, #81C784);
+        }
+
+      
+
+        .card h4 {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            text-transform: uppercase;
+        }
+
+        .card p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding-top: 20px;
+        }
+
+        .skill-card {
+            flex: 1 1 calc(33% - 20px);
+            background: #ccddcd;
+            color: rgb(64, 61, 61);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill-card:nth-child(2) {
+            background: #d7e1e8;
+        }
+
+        .skill-card:nth-child(3) {
+            background: #f7f2e4;
+        }
+
+        .skill-card:nth-child(4) {
+            background: #ccb1d1;
+        }
+
+        .skill-card:nth-child(5) {
+            background: #e2f4f6;
+        }
+
+        .skill-card:nth-child(6) {
+            background: #f8e9e5;
+        }
+
+        .skill-card h4 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: #000000;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SHAILESH</h1>
+            <p>Web Designer & Frontend Developer</p>
+        </div>
+
+        <div class="profile">
+            <img src="profile.jpg" alt="Felicia Brown">
+            <p>Hello! I am Shailesh K, a web designer and frontend developer with a passion for crafting beautiful
+                and user-friendly websites.</p>
+        </div>
+
+        <div class="about">
+            <h2>About Me</h2>
+            <p>I am fresher and  working on diverse creative projects, combining technical expertise and artistic vision to deliver impactful digital solutions. I specialize in creating interactive and user-centric websites, ensuring seamless functionality and design. Beyond coding, I enjoy photography and content creation, which inspire my design concepts. My mission is to empower businesses by crafting compelling online presences and user experiences that stand out in today’s competitive landscape.</p>
+        </div>
+
+        <div class="links">
+            <h3>Connect with Me</h3>
+            <a href="https://www.linkedin.com/in/felicia-brown" target="_blank">LinkedIn Profile</a>
+            <a href="mailto:felicia.brown@example.com">Gmail</a>
+            <a href="https://github.com/felicia-brown" target="_blank">GitHub Profile</a>
+        </div>
+
+        <div class="section">
+            <h3>What I'm Doing</h3>
+            <div class="what-doing">
+                <div class="card">
+                    <h4>Web Design</h4>
+                    <p>Creating beautiful and responsive websites that provide optimal user experiences and align with the latest design trends.</p>
+                </div>
+                <div class="card">
+                    <h4>Web Development</h4>
+                    <p>Building functional and efficient web applications using modern frameworks, ensuring performance and scalability.</p>
+                </div>
+                <div class="card">
+                    <h4>Business Apps</h4>
+                    <p>Designing intuitive apps tailored to business needs, streamlining operations, and enhancing productivity.</p>
+                </div>
+           
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <div class="skills">
+                <div class="skill-card">
+                    <h4>HTML & CSS</h4>
+                    <p>Expert in crafting semantic, responsive, and cross-browser compatible web designs.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>JavaScript</h4>
+                    <p>Proficient in creating dynamic and interactive web experiences using modern JavaScript frameworks.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>React</h4>
+                    <p>Experienced in building scalable front-end applications using React.js and related libraries.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>UI/UX Design</h4>
+                    <p>Skilled in designing intuitive user interfaces and enhancing user experiences through research and prototyping.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>SEO</h4>
+                    <p>Knowledgeable in implementing SEO best practices to improve website ranking and visibility.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Photography</h4>
+                    <p>Adept at capturing high-quality visuals for digital media and marketing purposes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Shailesh K. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
